@@ -48,3 +48,18 @@ For Loop
 
 	}
 
+Two ways of Function Definition
+	1. Classic/Old way
+		function funcname()
+		{
+
+		}
+	2. Modern/New way ES6(Echma Script 2015)
+	   // Fat Arrow (=>)
+	   // Thin Arrow (->)
+
+	// Fat Arrow
+	   let funcname = ()=>
+	   {
+		
+	   }
