@@ -32,3 +32,19 @@ Actual Argument can be
 1. Int/Float/Double
 2. String
 3. Can be a function call
+
+Variable can store 1 value at a time
+Array can store more than 1 value at a time
+Array are denoted by Square Bracket []
+
+Syntax
+var arrayName = [element1, element2, element3, ....];
+let arrayName = [member1, member2, member3, ....];
+const arrayName = [index0, index1, index2, ....];
+
+For Loop
+	for(initialization, condition, incre/decre)
+	{
+
+	}
+
