@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <script>
+        var students = ['Rohit','Jaiswal','Virat','Surya','Pant','Pandya','Jadeja','Chahal','Bumrah'];
+    //    console.log("Hello "+students[2]+" How are you ?");
+    //    alert("Hello "+students[0]+" How are you ?");
+        
+        function greet(m)
+        {
+            console.log('Hello '+m+', How are you ?');
+        }
+        for(var i=0;i<=7;i++)
+        {
+            greet(students[i]);
+        }
+
+
+        function greet2(s)
+        {
+            for(var i=0;i<=7;i++)
+            {
+                console.log('Welcome '+s[i]);
+            }
+        }
+        greet2(students);
+    </script>
+</body>
+</html>
